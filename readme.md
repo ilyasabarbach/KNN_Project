@@ -9,10 +9,10 @@ Le projet comprend l'analyse exploratoire complète (Notebook) ainsi qu'une **AP
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn)
 
 ## 📂 Structure du Projet
-
+```text
 Ce projet adopte une structure MLOps propre pour séparer les données, l'analyse, les modèles et le code de l'application.
 KNN_Project/ ├── data/ │ └── Social_Network_Ads.csv ├── models/ │ ├── knn_model.pkl │ └── scaler.pkl ├── notebooks/ │ └── KNN_Classification_TP.ipynb ├── src/ │ └── app.py ├── README.md └── requirements.txt
-
+```
 ## 🚀 Démarrage (Lancer l'API)
 
 Pour exécuter ce projet et lancer le service de prédiction localement, suivez ces étapes.
