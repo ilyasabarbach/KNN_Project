@@ -41,10 +41,12 @@ Lancez le serveur Flask depuis la racine du projet :
 
 ```bash
 python src/app.py
+```
 
 Le serveur démarrera sur http://127.0.0.1:5000/.
 
-🧪 Comment Tester l'API
+### 4. Comment tester l'API
+
 Une fois le serveur lancé, vous pouvez tester le point de terminaison /predict à l'aide d'un outil comme Postman ou curl.
 
 URL : http://127.0.0.1:5000/predict
@@ -65,11 +67,15 @@ Si la requête est réussie, vous recevrez une réponse au format JSON :
     "prediction": 0
 }
 
-Analyse et Modèle
-Analyse Exploratoire
+### 5. Analyse et Modèle
+
+1.  **Analyse Exploratoire :**
+
 Pour une analyse détaillée, la préparation des données et les étapes d'entraînement du modèle, veuillez consulter le Jupyter Notebook situé dans le dossier /notebooks/.
 
-Résultats du Modèle
+2.  **Résultats du Modèle :**
+
+
 Le modèle final est un K-Nearest Neighbors (KNN) entraîné sur 3 caractéristiques (Genre, Âge, Salaire Estimé).
 
 Précision (Accuracy) sur l'ensemble de test : 93 %
